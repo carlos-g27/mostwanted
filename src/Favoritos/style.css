@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.personas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.persona-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.persona-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.persona-imagen {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.persona-info {
+  padding: 15px;
+}
+
+.persona-titulo {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.persona-detalles {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+.persona-recompensa {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.remove-fav-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remove-fav-btn:hover {
+  background: #c82333;
+}
+
+.sin-resultados {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1em;
+  color: #666;
+}

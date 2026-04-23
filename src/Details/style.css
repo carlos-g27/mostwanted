@@ -1,0 +1,58 @@
+.details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-image {
+  max-width: 300px;
+  height: auto;
+}
+
+.details-info h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.details-info h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.details-info p {
+  line-height: 1.6;
+}
+
+.cargando, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+.error {
+  color: red;
+}
