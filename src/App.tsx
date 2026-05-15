@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { createClient } from "@supabase/supabase-js";
 import Informativa from './Informativa'
 import Original from './Original'
 import Usuario from './Usuario'
