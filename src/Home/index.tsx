@@ -7,6 +7,7 @@ interface WantedPerson {
   title: string
   details: string
   images: Array<{
+    original: string;
     url: string
     thumb: string
   }>
