@@ -137,7 +137,8 @@ function Home() {
                 </div>
               </div>
             </Link>
-            /*coomentt*/ 
+            /*coomentt*/
+            /*COMMENT*/  
           ))
         ) : (
           <p className="sin-resultados">No se encontraron resultados</p>
