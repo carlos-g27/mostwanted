@@ -34,7 +34,7 @@
   margin: 0;
   font-size: 0.9em;
 }
-/*comment*/
+/*comment */
 .hero {
   position: relative;
 
@@ -55,7 +55,7 @@
   .vite {
     position: absolute;
   }
-
+/*commenttt*/
   .framework {
     z-index: 1;
     top: 34px;
