@@ -10,6 +10,8 @@ interface WantedPerson {
     original: string;
     url: string
     thumb: string
+    original?: string
+    large?: string
   }>
   reward_text: string
   uid: string

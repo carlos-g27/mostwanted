@@ -7,6 +7,8 @@ interface WantedPerson {
   images: Array<{
     url: string
     thumb: string
+    original?: string
+    large?: string
   }>
   reward_text: string
   uid: string

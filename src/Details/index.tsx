@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link, useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './style.css'
 
 interface WantedPerson {
@@ -8,6 +7,8 @@ interface WantedPerson {
   images: Array<{
     url: string
     thumb: string
+    original?: string
+    large?: string
   }>
   reward_text: string
   uid: string
